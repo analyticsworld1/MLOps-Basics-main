@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from transformers import AutoModel
 from sklearn.metrics import accuracy_score
 
-
+# Model
 class ColaModel(pl.LightningModule):
     def __init__(self, model_name="google/bert_uncased_L-2_H-128_A-2", lr=1e-2):
         super(ColaModel, self).__init__()
