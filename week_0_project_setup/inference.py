@@ -2,7 +2,7 @@ import torch
 from model import ColaModel
 from data import DataModule
 
-# Class funcitons...
+# Class funcitons
 class ColaPredictor:
     def __init__(self, model_path):
         self.model_path = model_path

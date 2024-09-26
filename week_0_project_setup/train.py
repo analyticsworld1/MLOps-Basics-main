@@ -5,7 +5,7 @@ from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
 from data import DataModule
 from model import ColaModel
-#training
+#training file
 
 def main():
     cola_data = DataModule()
